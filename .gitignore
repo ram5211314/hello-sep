@@ -1,0 +1,25 @@
+# Build output
+build/
+
+# Ninja build log
+.ninja_log
+
+# CMake cache
+CMakeCache.txt
+
+# IDE/VS Code
+.vscode/
+.idea/
+
+# SDK config (keep one version, but gitignore the generated one)
+sdkconfig
+
+# Compiled archives
+*.a
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# ESP-IDF specific
+.gitee/
